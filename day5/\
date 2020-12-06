@@ -1,0 +1,18 @@
+## solution of the first half
+def part1(terrain, slope):
+    return 0
+
+## solution fo the second half
+def part2(terrain, slopes):
+    return 0
+
+## read input
+terrain = []
+with open('input.txt', 'r') as input_file:
+    input_line = input_file.readlines()
+    for line in input_line:
+        terrain.append(line[:-1])
+
+## output answer 
+print(part1())
+print(part2())
